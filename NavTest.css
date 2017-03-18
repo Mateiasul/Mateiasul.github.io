@@ -2,28 +2,15 @@ body {
     background-color: black;
 }
 
-
-@font-face {
-        font-family: "font-one";
-        src: url(times.regular.tff);
-}
-
-.navi {
-    color: white;
+h1 {
+    color: red;
     text-align: center;
-    font-family: "font-one"}
-/*
-
-
-.navi {
-    font-family: "Name of your font";
-}*/
-
-
-body {
-    background-image: url("images/wall1.jpg");
-
+    font-family: "Impact", Charcoal, sans-serif
 }
+
+
+
+
 
 .image {
  
@@ -74,3 +61,4 @@ body {margin:0;}
     background-color: #4CAF50;
     color: white;
 }
+
