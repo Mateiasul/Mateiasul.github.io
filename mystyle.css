@@ -9,6 +9,7 @@ body {
 }
 
 .navi {
+	position: absolute-center;
     color: white;
     text-align: center;
     font-family: "font-one"}
@@ -21,9 +22,16 @@ body {
 
 
 body {
-    background-image: url("images/wall1.jpg");
-  background-size: cover;
+   background-image: url("images/wall1.jpg");
+  background-repeat:no-repeat;
+background-size:cover;
+  background-attachment: fixed;
+  background-position: center center;
 
+
+
+}
+.backroung-image{
 
 }
 
@@ -76,3 +84,7 @@ body {margin:0;}
     background-color: #4CAF50;
     color: white;
 }
+
+
+
+
