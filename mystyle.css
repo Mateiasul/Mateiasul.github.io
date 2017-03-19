@@ -12,7 +12,14 @@ body {
 	position: absolute-center;
     color: white;
     text-align: center;
-    font-family: "font-one"}
+    font-family: "font-one"
+}
+#searchB{
+		position: absolute-center;
+    text-align: center;
+
+}
+
 /*
 
 
@@ -27,16 +34,16 @@ body {
 background-size:cover;
   background-attachment: fixed;
   background-position: center center;
+max-width: 100%;
 
 
 
 }
-.backroung-image{
 
-}
 
 .image {
- 
+
+
     -webkit-animation:spin 4s linear infinite;
     -moz-animation:spin 4s linear infinite;
     animation:spin 4s linear infinite;
