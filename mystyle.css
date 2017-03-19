@@ -103,7 +103,7 @@ height:500px;color: #4CAF50;
  background-color: #333;
  position: absolute;
     width: 100%;
-    left: 0;
+    left: 0;right: 0;
 }
  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 
