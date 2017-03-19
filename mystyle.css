@@ -20,6 +20,7 @@ body {
 
 }
 
+ 
 /*
 
 
@@ -95,3 +96,27 @@ body {margin:0;}
 
 
 
+ #section1 {
+
+padding-top:50px;
+height:500px;color: #4CAF50;
+ background-color: #333;
+ position: absolute;
+    width: 100%;
+    left: 0;
+}
+ #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+
+
+.col-sm-4 img:hover {transform: scale(1.1);
+-webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);}
+
+  .img-rounded {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
