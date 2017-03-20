@@ -105,18 +105,24 @@ height:500px;color: #4CAF50;
     width: 100%;
     left: 0;right: 0;
 }
+
+
+
  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 
 
-.col-sm-4 img:hover {transform: scale(1.1);
--webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);}
+.col-sm-4 img:hover {
+	transform: scale(1.1);
+    opacity: 0.3;
+
+  -webkit-transition: opacity 700ms;
+  -moz-transition: opacity 700ms;
+  -o-transition: opacity 700ms;
+  transition: opacity 700ms;}
 
   .img-rounded {
     display: block;
     margin-left: auto;
     margin-right: auto;
  }
+
