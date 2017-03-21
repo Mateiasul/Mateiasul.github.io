@@ -42,7 +42,33 @@ body {
 }
 font-family: 'Great Vibes', cursive;
 
+#section1 #ss{
+    font-size: 35px;
+font-family: 'Open Sans Condensed', sans-serif;
 
+}
+
+
+#section1 #xxx{
+  font-size: 20px;
+
+}
+
+#section1 #fancy{
+  font-size: 35px;
+font-family: 'Great Vibes', cursive;
+
+}
+ #section1 {
+text-align: center;
+padding-top:0px;
+height:1000px;
+ background-color: #fffced;
+ position: absolute;
+ margin-top: 700px;
+    width: 100%;
+    left: 0;right: 0;
+}
 
 
 
@@ -86,34 +112,6 @@ font-family: 'Great Vibes', cursive;
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
-
-#section1 #ss{
-    font-size: 35px;
-font-family: 'Open Sans Condensed', sans-serif;
-
-}
-
-
-#section1 #xxx{
-  font-size: 20px;
-
-}
-
-#section1 #fancy{
-  font-size: 35px;
-font-family: 'Great Vibes', cursive;
-
-}
- #section1 {
-text-align: center;
-padding-top:0px;
-height:1000px;
- background-color: #fffced;
- position: absolute;
- margin-top: 700px;
-    width: 100%;
-    left: 0;right: 0;
 }
 
 
