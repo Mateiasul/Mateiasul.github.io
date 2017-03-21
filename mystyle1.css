@@ -49,8 +49,16 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
+#section1 #xx{
+  font-size: 20px;
+
+
+}
+
 #section1 #xxx{
   font-size: 20px;
+      margin-right: 80px;
+    margin-left: 80px;
 
 }
 
