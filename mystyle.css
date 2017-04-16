@@ -73,10 +73,10 @@ ul.img-list {
 
 ul.img-list li {
   display: inline-block;
-  height: 280px;
+  height: 320px;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 280px;
+  width: 320px;
 }
 
 span.text-content {
@@ -84,11 +84,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 280px;
+  height: 320px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 280px;
+  width: 320px;
 }
 
 span.text-content span {
@@ -102,11 +102,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 280px;
+  height: 320px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 280px;
+  width: 320px;
   opacity: 0;
   -webkit-transition: opacity 700ms;
   -moz-transition: opacity 700ms;
@@ -158,17 +158,20 @@ height:500px;
  position: absolute;
     width: 100%;
     left: 0;right: 0;
-    margin-top: 200px
+    margin-top: 350px
 }
 
 .work{
 
-padding-top:50px;
+padding-top:200px;
  position: absolute;
  font-size: 20px;
     left: 0;right: 0;
-    margin-top: 550px;
-    margin-left: 10px;
+   margin:0 auto;
+       margin-top: 550px;
+
+    text-align: justify;
+    width: 320px;
     text-align: center;
     color: #f6f7ef
 
@@ -177,8 +180,7 @@ padding-top:50px;
 
   .img-rounded {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
  }
 
 
