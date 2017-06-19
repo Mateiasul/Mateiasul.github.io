@@ -1,0 +1,113 @@
+
+
+/*body {
+    background: url("images/wall1.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}*/
+@font-face {
+        font-family: "font-one";
+        src: url(times.regular.tff);
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden; /* if content out of the box , not visible */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #FAFAFA;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#bgd .col-md-12{
+    background: url("bgd2.jpg");
+  height: 300px;
+
+}
+
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 120px;
+    width: 100%;
+    font-family: "font-one";
+    font-size: 250%;
+        color: #FAFAFA;
+
+
+
+}
+
+.text::first-letter {
+    font-size: 250%;
+    color: #FAFAFA;
+}
+
+
+#about-me .col-md-12{
+    background-color: #ffffff;
+  height: 100px;
+
+}
+
+#story .col-md-12{
+    margin-top: 30px;
+
+    background-color: #ffffff;
+  height: 800px;
+
+}
+
+
+#about-me .text_about {
+  padding-top: 35px;
+    max-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 350%;
+    color: #000000;
+    text-align:center;
+    font-family: "font-one";
+    border-bottom: 0.5px solid
+
+}
+
+#story .story_text{
+
+    font-size: 120%;
+
+    max-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+        text-align:center;
+    font-family: "font-one";
+    background-color: #ffffff;
+  height: 100px;
+
+}
+
+
