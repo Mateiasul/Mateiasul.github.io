@@ -24,6 +24,8 @@
         <li><a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a></li>
         <li><a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a></li>
         <li><a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a></li>     
+             <li>  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</i></a></li>
+
       </ul>
     </div>
 
@@ -154,7 +156,17 @@ And now...to wrap everything up, let's just say Austria is an incredible place t
     </div>
   </div>
 
-
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
  <script src="aaaa/jquery-3.2.0.slim.min"></script>
 <script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
