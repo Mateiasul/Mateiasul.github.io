@@ -85,6 +85,18 @@
 
 }
 
+#texti{margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+#textiB{
+
+margin-bottom: 20px;
+}
+
+
 
 #about-me .text_about {
   padding-top: 35px;
@@ -102,7 +114,7 @@
 #story .story_text{
 
     font-size: 120%;
-
+    text-align: justify;
     max-width:900px;
     margin-left: auto;
     margin-right: auto;
