@@ -29,6 +29,8 @@
     font-size: 17px;
 }
 
+.social a{float: right;}
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #FAFAFA;
@@ -153,4 +155,12 @@ margin-bottom: 20px;
     display: block;
     text-align: left;
   }
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+  .social #my-content { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+ .social #my-content { display: none; }   /* hide it elsewhere */
 }
