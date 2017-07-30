@@ -29,7 +29,9 @@
     font-size: 17px;
 }
 
-.social a{float: right;}
+.social a
+{
+    float: right;}
 
 /* Change the color of links on hover */
 .topnav a:hover {
