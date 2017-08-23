@@ -91,7 +91,7 @@ margin-bottom: 20px;
 }
 
 #story .story_text{
-
+    line-height: 200%;
     font-size: 120%;
     text-align: justify;
     max-width:900px;
