@@ -20,27 +20,33 @@ body {margin:0;}
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<ul>
-  <li><a href="index.html">Mateiasul</a></li>
-  <li><a href="the-story.html">About</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Travel +</a>
-    <div class="dropdown-content">
-      <a href="Bcn.html">Barcelona</a>
-      <a href="Austria.html">Austria</a>
-    </div>
-  </li>
-  <li class="right">
-          <div class="social">
 
+<div class="topnav" id="myTopnav">
+
+<ul>
+    <li><a href="index.html">Mateiasul</a></li>
+    <li><a href="the-story.html">About</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Travel +</a>
+        <div class="dropdown-content">
+          <a href="Bcn.html">Barcelona</a>
+          <a href="Austria.html">Austria</a>
+        </div>
+    </li>
+
+
+
+    <li class="right">
+      <div class="social">
         <a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a>
         <a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a>
-       <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
-</div>
+        <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+      </div>
 </li>
+<li> <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></li>
 </ul>
 
-
+</div>
 
 
   <div class ="container">
@@ -118,11 +124,7 @@ Here i was, at 1 AM wondering around in the rain, around an empty train station.
 
 And so after almost 2h of asking around in the rain and praying that somebody won't be scared of my hobo appearence i managed to get home. I guess adventrues do have a happy ending after all.
 <br><br>
-<br><br>
 
-
-        
-        <br><br>
 
        Hope u, who ever u r that is reading this, enjoyed my lil story, and maybe u r even looking forward to my next
        adventure (wanna be) trip.
@@ -131,7 +133,7 @@ And so after almost 2h of asking around in the rain and praying that somebody wo
 <br><br>
        
        The one and only... Asul
-<br><br>
+<br>
 
        
        Mateiasul
@@ -169,7 +171,7 @@ And so after almost 2h of asking around in the rain and praying that somebody wo
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-        x.className += " responsive";
+        x.className = "topnav1 responsive";
     } else {
         x.className = "topnav";
     }
@@ -182,17 +184,6 @@ function myFunction() {
 
 
 
-
-<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
-</script>
 
 </body>
 </html>
