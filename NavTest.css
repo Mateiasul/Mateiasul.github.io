@@ -37,6 +37,12 @@
 
 }
 
+.fb-comments{
+    display: center;
+        text-align:center;
+
+}
+
 .first-letter {
     display: inline;
     font-size: 250%;
