@@ -11,7 +11,14 @@ body {margin:0;}
 
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <ul>
   <li><a href="index.html">Mateiasul</a></li>
@@ -125,7 +132,8 @@ And so after almost 2h of asking around in the rain and praying that somebody wo
        
        The one and only... Asul
 <br><br>
-       
+
+<div class="fb-comments" data-href="http://mateiasul.com/NavBTest" data-width="100" data-numposts="5"></div>       
        
        Mateiasul
 
@@ -147,6 +155,13 @@ And so after almost 2h of asking around in the rain and praying that somebody wo
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
 
 <script>
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
