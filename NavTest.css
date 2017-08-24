@@ -97,6 +97,9 @@ margin-bottom: 20px;
 }
 
 #story .story_text{ 
+  
+    padding-right: 30px;
+    padding-left: 30px;
     line-height: 200%;
     font-size: 120%;
     text-align: justify;
