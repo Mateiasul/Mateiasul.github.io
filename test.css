@@ -128,13 +128,12 @@ margin-bottom: 20px;
 
   
 
-
 ul .icon{
     display: none;
 }
-ul { 
-border-style: solid;
-
+ ul { 
+    border-bottom-width: 1px;
+    border-style: solid;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -142,14 +141,18 @@ border-style: solid;
     background-color: white;
 }
 
-li {
-    float: left;
+ul {
+  -webkit-box-shadow: 0 7px 6px -6px #222;
+  -moz-box-shadow: 0 7px 6px -6px #222;
+  box-shadow: 0 7px 6px -6px #222;
+}
+
+li {text-align: center;
+  display: inline;
 }
 
 
-
 li a, .dropbtn {
-      border-right-style: solid;
 
     display: inline-block;
     color: black;
@@ -165,6 +168,12 @@ li a:hover, .dropdown:hover .dropbtn {
 
 li.dropdown {
     display: inline-block;
+}
+
+.cent {
+    display: inline;
+    position: center;
+    float: center;
 }
 
 .dropdown-content {
@@ -194,7 +203,7 @@ li.dropdown {
 
 ul.right li a {font-size: 1.3rem;}
 
-.right {      border-left-style: solid;
- 
+.right {     
+
   float:right;  clear:right }
 
