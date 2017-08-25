@@ -1,64 +1,139 @@
 <!DOCTYPE html>
-
 <html>
- 
-  <head>
-      <title>Asul</title>
-      <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Great+Vibes|Roboto|Open+Sans|Shadows+Into+Light" rel="stylesheet">
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
 
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+
+    <link href="aaaa/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
       <link rel="stylesheet" type="text/css" href="test.css">
-      <link href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="aaaa/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
-
-  </head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
-  <body>
-     <div class="topnav" id="myTopnav">
-     <ul>
-      <li><a href="index.html">Mateiasul</a>
-      <li class="dropdown">
+</head>
+<body>
+
+
+
+
+
+
+<div class="topnav" id="myTopnav">
+
+<ul>
+    <li><a href="index.html">Mateiasul</a></li>
+    <li><a href="the-story.html">About</a></li>
+    <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">Travel +</a>
-              <div class="dropdown-content">
+        <div class="dropdown-content">
           <a href="Bcn.html">Barcelona</a>
           <a href="Austria.html">Austria</a>
         </div>
-        </li>
+    </li>
 
-       <li class="social">
+
+
+    <li class="right">
+      <div class="social">
+        
         <a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a>
         <a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a>
-       <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+        <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+      </div>
 </li>
-                 <li> <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</i></a>
+
+<li><span class="icon" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
 </li>
-    </div>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+<a href="the-story.html">About</a>
+          <a href="Bcn.html">Barcelona</a>
+          <a href="Austria.html">Austria</a>
+      <div class="social">
+        <a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+      </div>
+  </div>
+</div>
+
 
 
 <script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
 }
 </script>
- <script src="aaaa/jquery-3.2.0.slim.min"></script>
-<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  </body>
+     
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
