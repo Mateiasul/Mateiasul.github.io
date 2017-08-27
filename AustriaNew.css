@@ -1,0 +1,219 @@
+
+
+/*body {
+    background: url("images/wall1.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}*/
+@font-face {
+        font-family: "font-one";
+        src: url(times.regular.tff);
+}
+
+#bgd .col-md-12{
+    background: url("images/rsz_rsz_1rsz_2stanca.jpg");
+        background-repeat: no-repeat;
+    background-position: center; 
+    height: 300px;
+
+
+}
+
+
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 120px;
+    width: 100%;
+    font-family: "font-one";
+    font-size: 250%;
+        color: #FAFAFA;
+
+
+
+}
+
+.fb-comments{
+    display: center;
+        text-align:center;
+
+}
+
+.first-letter {
+    display: inline;
+    font-size: 250%;
+    color: black;
+}
+
+
+#about-me .col-md-12{
+    background-color: #ffffff;
+  height: 100px;
+
+}
+
+#story .col-md-12{
+    margin-top: 30px;
+
+    background-color: #ffffff;
+  height: 500px;
+
+}
+
+#texti{margin-top: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom: 20px;
+}
+
+#textiB{
+
+margin-bottom: 20px;
+
+
+
+}
+
+
+
+#about-me .text_about {
+    height: 100px
+  padding-top: 35px;
+
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 350%;
+    color: #000000;
+    text-align:center;
+    font-family: "font-one";
+    border-bottom: 0.5px solid
+
+}
+
+#story .story_text{ 
+
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 200%;
+    font-size: 120%;
+    text-align: justify;
+    max-width:900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "font-one";
+    background-color: #ffffff;
+  height: 100px;
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav ul li:nth-of-type(2n+0) {display: none;}
+  .topnav ul li:nth-of-type(3n+0) {display: none;}
+  .topnav ul li  .icon {
+    float: right;
+    display: inline-block;
+    text-align: right;
+  }
+}
+
+
+
+
+  
+
+ul .icon{
+    display: none;
+}
+ ul { 
+    border-bottom-width: 1px;
+    border-style: solid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul {
+  -webkit-box-shadow: 0 7px 6px -6px #222;
+  -moz-box-shadow: 0 7px 6px -6px #222;
+  box-shadow: 0 7px 6px -6px #222;
+}
+
+li {text-align: center;
+  display: inline;
+}
+
+
+li a, .dropbtn {
+
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #333;
+    color: white;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.cent {
+    display: inline;
+    position: center;
+    float: center;
+}
+
+.dropdown-content {
+    border-bottom: 1px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);_
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {background-color: #333}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ul.right li a {font-size: 1.3rem;}
+
+.right {     
+
+  float:right;  clear:right }
+
+.image {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
