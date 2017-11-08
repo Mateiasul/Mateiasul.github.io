@@ -304,13 +304,6 @@ body {
 
 
 
-@media screen and (min-width: 0px) and (max-width: 400px) {
-  .social #my-content { display: block; }  /* show it on small screens */
-}
-
-@media screen and (min-width: 401px) and (max-width: 1024px) {
- .social #my-content { display: none; }   /* hide it elsewhere */
-}
 
 .AboutMe {
   font-size: 3vh;
@@ -327,8 +320,8 @@ body {
 {
     .AboutMe
     {
-        display: none;
-    }
+         display: none;
+    } 
 
      .Stories
     {
