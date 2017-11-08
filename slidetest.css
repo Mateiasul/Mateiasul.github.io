@@ -322,6 +322,20 @@ body {
   border-bottom-style: solid;
 }
 
+
+@media (max-width: 640px) 
+{
+    .AboutMe
+    {
+        display: none;
+    }
+
+     .Stories
+    {
+        display: none;
+    }
+}
+
 .Stories {
   border-width: 2px;
   border-bottom-style: solid;
@@ -338,7 +352,9 @@ body {
   padding-top: 10px;
   width: 10vw;
   height: 10vh;
-  min-width: 170px; 
+  min-width: 190px; 
+  max-width: 200px; 
+
   border-width: 2px;
   border-style: solid;
   font-size: 3.5vh;
@@ -355,11 +371,41 @@ body {
 
 
 
-.slick-slide {
-  &:focus, a {
-    outline: none;
-  }
+
+
+#section02 .fam
+{
+    display: block;
+    width: 55%;
+    margin-top: 150px;
+    margin-left: 200px;
+    border-left: 1px solid;
+    border-bottom: 0.1px solid;
+    padding-left: 100px;
+    padding-bottom:  50px;
+    min-width: 50%;
+
+   opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+ 
 }
+
+  #section02 .fam:hover
+  {
+        opacity: 0.5;
+  }
+
+#section02 p
+{
+  text-align: center;
+margin-left: 200px;
+  margin-left: 13%;
+  padding-top: 15px;
+
+}
+
+
 
 /* Container holding the image and the text */
 
@@ -399,13 +445,20 @@ body {
     left: 0;
     position:absolute;
     text-align:center;
-    top: 120px;
+    top: 140px;
     width: 100%;
     font-family: "font-one";
-    font-size: 250%;
+    font-size: 4vw;
         color: #FAFAFA;
 
+}
 
-
+@media (max-width: 640px) 
+{
+   
+     .text
+    {
+        top: 40px;
+    }
 }
 
