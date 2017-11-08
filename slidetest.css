@@ -301,7 +301,11 @@ body {
 }
 
 
-
+img {
+    max-width: 150%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
 
 
@@ -316,6 +320,8 @@ body {
 }
 
 
+
+
 @media (max-width: 640px) 
 {
     .AboutMe
@@ -328,6 +334,29 @@ body {
         display: none;
     }
 }
+
+@media (max-width: 640px) 
+{
+   
+#section02 { 
+  min-height: 2000px;
+}
+
+img { 
+  width: 100%;
+
+}
+
+.text-content
+{
+  display: none;
+}
+
+
+
+   }
+
+
 
 .Stories {
   border-width: 2px;
@@ -475,17 +504,17 @@ margin-left: 200px;
   color: white;
   cursor: pointer;
   display: table;
-  height: 500px;
+  height: 150%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 500px;
+  width: 150%;
   opacity: 0;
   -webkit-transition: opacity 700ms;
   -moz-transition: opacity 700ms;
   -o-transition: opacity 700ms;
   transition: opacity 700ms;
-  
+
 }
 
 
