@@ -455,3 +455,68 @@ margin-left: 200px;
     }
 }
 
+
+#theT{
+  opacity: 0.7;
+  font-family: 'Clicker Script', cursive;
+  font-size: 170px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid;
+  margin:0 auto;
+}
+
+
+
+
+
+.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 500px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+  opacity: 0;
+  -webkit-transition: opacity 700ms;
+  -moz-transition: opacity 700ms;
+  -o-transition: opacity 700ms;
+  transition: opacity 700ms;
+  
+}
+
+
+
+.img-list #theT:hover {
+  opacity: 1;
+
+}
+
+
+
+.img-list {
+  list-style-type: none;
+  margin: 100px;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 320px;
+  margin: 200px 16em 1em 0;
+  position: relative;
+  width: 320px;
+}
+
+.text-content:hover {
+  opacity: 1;
+
+}
+
+.img-list li:hover {
+    transform: scale(1.1);
+
+}
