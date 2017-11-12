@@ -42,24 +42,30 @@
               <a href="#section01"><span></span><div class="AboutMe2">TOP</div></a>
  
   <ul class="img-list">
-    <li><a href="Austria.html">
-      <img src="images/mario.jpg" width="500px" height="500px" />
+    <li>
+      <a href="Austria.html">
+        <img src="images/mario.jpg">
+        <div class="text-content">     
+          <span id="theT">M</span>
+
+        </div>
+      </a>
+                         
+
+    </li>
+
+    <li>
+      <a href="Bcn.html">
+      <img id="wall" src="images/mln wall.jpg"  />
       <div class="text-content">     
        <span id="theT">M</span>
 
       </div>
 </a>
-  </li>
-     <li><a href="Austria.html">
-      <img id="wall" src="images/mln wall.jpg" width="500px" height="500px" />
-      <div class="text-content">     
-       <span id="theT">M</span>
 
-      </div>
-</a>
-
-  </li>   <li><a href="Austria.html">
-      <img src="images/Heineken.jpg" width="500px" height="500px" />
+  </li>  
+   <li><a href="bdayparty.html">
+      <img src="images/Heineken.jpg"/>
       <div class="text-content">     
        <span id="theT">M</span>
 
@@ -70,6 +76,28 @@
 
 
 </ul>
+<ul class="text-list">
+<li><dir id="theM"> <span >The one about Austria</dir>
+</li>
+<li><dir id="theM"> <span >The one about Barcelona </span></dir>
+</li>
+<li><dir id="theM"> <span >The one about the BDay<span></dir>
+</li>
+</ul>
+
+<script>
+  $(document).ready(function() {
+    function overlay() {
+      $("ul.img-list li").each(function() {
+        var height = $(this).height() + 5;
+        $(this).children("a").children(".text-content").height(height);
+      });
+    }
+
+    overlay();
+    $( window ).resize(overlay);
+  });
+</script>
 
 
       </section>

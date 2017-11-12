@@ -14,7 +14,8 @@ html, body {
   height: 100%;
 }
 
-#section02 { 
+#section02 {
+  text-align: center;
   position: relative;
   width: 100%;
   height: 100%;
@@ -253,7 +254,7 @@ body {
 .Mp {
   font-family: 'Love Ya Like A Sister'.serif;
   font-size: 10.4vw;
-  color: bk;
+  color: black;
   position: absolute;
   bottom: 10px;
   right: 5px;
@@ -381,7 +382,8 @@ img {
 
 #section01 .Title:hover
 {
-  background-color: #fff;
+  background-color: black;
+  color: white;
 }
 
 
@@ -431,7 +433,7 @@ margin-left: 200px;
     max-width:1000px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 350%;
+    font-size: 80px;
     color: #000000;
     text-align:center;
     font-family: "font-one";
@@ -483,12 +485,25 @@ margin-left: 200px;
 #theT{
   opacity: 0.7;
   font-family: 'Clicker Script', cursive;
-  font-size: 170px;
+  font-size: 150px;
   position: relative;
   text-align: center;
   border-bottom: 1px solid;
   margin:0 auto;
+
 }
+
+#theM{
+  opacity: 1;
+  font-family: 'Clicker Script', cursive;
+  font-size: 50px;
+  text-align: center;
+    position: absolute;
+ width: 100%;
+ border-bottom: 1px solid;
+
+}
+
 
 
 
@@ -498,13 +513,13 @@ margin-left: 200px;
   background: rgba(0,0,0,0.5);
   color: white;
   cursor: pointer;
+  height: 100%;
+  width: 100%;
   display: table;
-  height: 150%;
   left: 0;
   position: absolute;
   top: 0;
-  width: 150%;
-  opacity: 0;
+    opacity: 0;
   -webkit-transition: opacity 700ms;
   -moz-transition: opacity 700ms;
   -o-transition: opacity 700ms;
@@ -523,27 +538,50 @@ margin-left: 200px;
 
 }
 
-.img-list #theT:hover {
-  opacity: 1;
-
-}
 
 
 
 .img-list {
   list-style-type: none;
-  margin: 100px;
-  text-align: center;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
 }
 
 ul.img-list li {
-  right: 92px;
   display: inline-block;
-  height: 320px;
-  margin: 200px 16em 1em 0;
+  margin: 37px 50px 1em 55px;
   position: relative;
-  width: 320px;
+  width: 20%;
+  text-align: center;
 }
+
+.img-list > li > a {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+ul.img-list img {
+  width: 100%;
+}
+
+
+.text-list {
+  list-style-type: none;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+ul.text-list li {
+  display: inline-block;
+  margin:0px 70px 1em 0px;
+  position: relative;
+  width: 25%;
+  text-align: center;
+}
+
+
 
 .text-content:hover {
   opacity: 1;
