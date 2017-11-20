@@ -485,7 +485,7 @@ margin-left: 200px;
 #theT{
   opacity: 0.7;
   font-family: 'Clicker Script', cursive;
-  font-size: 150px;
+  font-size: 120px;
   position: relative;
   text-align: center;
   border-bottom: 1px solid;
@@ -527,17 +527,6 @@ margin-left: 200px;
 
 }
 
-@media (max-width: 640px) 
-{
-   
-
-  .text-content
-    {
-  display: none;
-    }
-
-}
-
 
 
 
@@ -550,7 +539,7 @@ margin-left: 200px;
 
 ul.img-list li {
   display: inline-block;
-  margin: 37px 50px 1em 55px;
+  margin: 37px 50px 1em 45px;
   position: relative;
   width: 20%;
   text-align: center;
@@ -591,4 +580,36 @@ ul.text-list li {
 .img-list li:hover {
     transform: scale(1.1);
 
+}
+
+@media (max-width: 640px) 
+{
+
+ul.img-list li {
+  width: 80%;
+    margin: 230px 50px 1em 0px;
+}
+
+   ul.text-list{
+    display: none;
+   }
+
+  .text-content
+    {
+  display: none;
+    }
+
+    .demo .AboutMe2{
+      display: none;
+    }
+
+
+}
+
+@media (min-width: 640px) 
+{
+
+ul.img-list #theM {
+ display: none;
+}
 }
