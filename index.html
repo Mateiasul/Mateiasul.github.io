@@ -3,94 +3,180 @@
 <html>
   <head>
       <title>Asul</title>
-      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      <link rel="stylesheet" type="text/css" href="slidetest.css">
       <link href="bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
       <link href="aaaa/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+
+
+
+      <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+      <link href="aaaa/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
   </head>
-  <body>
-
-    <div class="topnav" id="myTopnav">
-      <a href="index.html">Mateiasul</a>
-      <a href="Austria.html">Blog</a>
-      <a href="the-story.html">The story</a>
-
-
-
-
-      <ul class="nav navbar-nav navbar-right so\cial">
-        <li><a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a></li>
-        <li><a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a></li>     
-      </ul>
-    </div>
+<body>
 
  
-    <div class="container-fluid" > 
 
-      
-      <div class="row">
-        <div class="col-sm-12">
-          <h1 class="navi"  style="font-size:1000%;">Matei<img class="image" src="images/AceOfSpades2.jpg" alt="Mountain View" style="width:90px;height:120px;">ul</h1>
-    
-          <form id="searchB" style="height:200px";  method="get" action="https://www.google.com/search">
-            <input type="text" name="q" size="100" placeholder="What do you desire the most in life?">
-          </form>
+      <section id="section01" class="demo">
+        <a href="#section02">
+          <div class="AboutMe1">Scroll</div>
+        </a>
+        <div class="Mp"; style="font-family: 'Love Ya Like A Sister';">Mp</div>
+        <div class="by"; style="font-family: 'Love Ya Like A Sister';">by</div>
+        <div class="navish">
+            <a href="#section03";><div class="AboutMe">About me</div></a>
+            <a href="#section02";><div class="Stories">My stories</div></a>
         </div>
-      </div>
-      </div>
+        <div class="Title">Mateiasul</div>
+      </section>
+     
 
 
-    <div class="container-fluid" > 
 
-      <div class="row">
-          <div id="section1">
 
-          <ul class="img-list">
-        <div class="col-sm-4">
+
+      <section id="section02" class="demo">
+              <a href="#section01"><span></span><div class="AboutMe2">TOP</div></a>
  
+  <ul class="img-list">
+    <li>
+      <a href="Austria.html">
+        <img src="images/mario.jpg">
+        <div class="text-content">     
+          <span id="theT">M</span>
 
-    <li><a href="Austria.html">
-      <img class="img-rounded" src="images/mario.jpg" width="320" height="320" />
-      <span class="text-content"><span id="theT">M</span></span>
-  </li>
-  </div>
-        <div class="col-sm-4">
+        </div>
+      </a>
+        <dir id ="theM"> <span >The one about Austria</dir>                 
 
+    </li>
 
     <li>
-      <img class="img-rounded" src="images/mln wall.jpg" width="320" height="320" />
-      <span class="text-content"><span id="theT">A</span></span>
+      <a href="Bcn.html">
+      <img id="wall" src="images/mln wall.jpg"  />
+      <div class="text-content">     
+       <span id="theT">M</span>
 
-  </li>
-  </div>
-          <div class="col-sm-4">
+      </div>
+</a>
+<dir id ="theM"> <span >The one about Barcelona</dir>
+  </li>  
+   <li><a href="bdayparty.html">
+      <img src="images/cake.jpg"/>
+      <div class="text-content">     
+       <span id="theT">M</span>
 
-    <li>
-      <img class="img-rounded" src="images/Heineken.jpg" width="320" height="320" />
-      <span class="text-content"><span id="theT">T</span></span>
+      </div>
+</a>
+<dir id ="theM"> <span >The one about the BDay</dir>
   </li>
-  </div>
+
+
 </ul>
-</div>
-</div>
-   <div class="row">
-   <div class="col-sm-4" >
-<p class="work">Mario hits the ski slope. </p>
+<ul class="text-list">
+<li><dir id="theM"> <span >The one about Austria</dir>
+</li>
+<li><dir id="theM"> <span >The one about Barcelona </span></dir>
+</li>
+<li><dir id="theM"> <span >The one about the BDay<span></dir>
+</li>
+</ul>
+
+<script>
+  $(document).ready(function() {
+    function overlay() {
+      $("ul.img-list li").each(function() {
+        var height = $(this).height() + 5;
+        $(this).children("a").children(".text-content").height(height);
+      });
+    }
+
+    overlay();
+    $( window ).resize(overlay);
+  });
+</script>
+
+
+      </section>
+
+      <section id="section03" class="demo">
+       <a href="#section01"><span></span><div class="AboutMe2">TOP</div></a>
+  <img src="bgd2.jpg" alt="Norway" style="width:100%;">
+   <div class="text">
+          Do not judge my story by the chapter you entered in on
+        </div>
+
+       <div class="text_about">
+          ABOUT me
+        </div>
+
+   
+
+        <div class="story_text">
+Hello there, my name is Matei which probably u already knew or guessed from my amazing codename Mateiasul. About that.. Can't really explain what it means think that​ it represents a mixture of cuteness and awesomeness. Cool, i know i know.
+
+
+<br><br>
+Long story short, I am turning 21 this year I am originally from Bucharest Romania, studying Computer science at the University of Manchester(basically the guy who u r gonna call when  your shitty laptop breaks). Currently i am doing a placement year at Redmayne Bentley in London. A stock broking company, not too big but not too small either. (u know what they....it's not all about the size "wink wink")
+<br><br>
+
+ Now back to the origins, Bucharest the capital of Romania ( sick country i know) is an amazing city, it basically has everything you'd want, going all the way from girls..and with girls, i mean the Romanian girls ( if u didn't already find one for yourself... Better start searching soon son) and amazing parties to culture and architecture. I' ve been living here for the first 18 years of my life...and to be honest, it did not disappoint me(most of the times ofc).
+<br><br>
+
+Now, let's see a couple things about myself, lovely lad, great sense of humour (which you'll understand only if u were dropped on your head a couple times when u were a lil qt baby as well), geekyish(can't say i hate what i am studying but it's neither my sole purpose in life) and finally, I am more or less in love with the Hispanic culture and life, and with life probably you already figured it out that i mean, (the holy trinity) the ladies, the sangria AND the latin parties (more despacito & less dorito)
+<br><br>
+
+
+  
   </div>
-    <div class="col-sm-4" >
-<p class="work">One day or day One - You Decide. </p>
-  </div>
-    <div class="col-sm-4" >
-<p class="work">I am Amsterdam. </p>
-  </div>
-  </div>
-</div>  
+
+      </section>
+
+   
 
 
 
 
-<script src="aaaa/jquery-3.2.0.slim.min"></script>
-<script src="bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-  </body>
+
+<script>
+// originally found via in Update 3 on http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links
+
+// filter handling for a /dir/ OR /indexordefault.page
+function filterPath(string) {
+  return string
+    .replace(/^\//, '')
+    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
+    .replace(/\/$/, '');
+}
+
+var locationPath = filterPath(location.pathname);
+$('a[href*="#"]').each(function () {
+  var thisPath = filterPath(this.pathname) || locationPath;
+  var hash = this.hash;
+  if ($("#" + hash.replace(/#/, '')).length) {
+    if (locationPath == thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
+      var $target = $(hash), target = this.hash;
+      if (target) {
+        $(this).click(function (event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop: $target.offset().top}, 1000, function () {
+            location.hash = target; 
+            $target.focus();
+            if ($target.is(":focus")){ //checking if the target was focused
+              return false;
+            }else{
+              $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
+              $target.focus(); //Setting focus
+            };
+          });       
+        });
+      }
+    }
+  }
+});</script>
+
+</body>
 </html>
