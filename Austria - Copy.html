@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+
+    <link href="aaaa/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css"/>
+      <link rel="stylesheet" type="text/css" href="AustriaNew.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+</head>
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<div class="topnav" id="myTopnav">
+
+<ul>
+            <li class="cent"><a href="index.html">Mateiasul</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Travel +</a>
+        <div class="dropdown-content">
+          <a href="Bcn.html">Barcelona</a>
+          <a href="Austria.html">Austria</a>
+        </div>
+
+
+    </li>
+
+    <li><a href="the-story.html">About</a></li>
+
+
+    <li class="right">
+      <div class="social">
+        
+        <a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+      </div>
+</li>
+
+
+
+<li><span class="icon" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+<a href="the-story.html">About</a>
+          <a href="Bcn.html">Barcelona</a>
+          <a href="Austria.html">Austria</a>
+      <div class="social">
+        <a href="https://www.facebook.com/matei.potcovaru"><i class="fa fa-lg fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mateiasul/?hl=en"><i class="fa fa-lg fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/matei-potcovaru-39016412b/"><i class="fa fa-lg fa-linkedin"></i></a>    
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+
+
+
+<img class="myImg1" src="images/cereal.jpg" alt="A beautiful close up of my marshmallow submarine cereal bowl">
+<img class="myImg1" src="images/harrods.jpg" alt="cheeky picture of harrods">
+<img class="myImg1" src="images/ceralswall.jpg" alt="cereal killer">
+
+<img class="myImg1" src="images/coffee.jpg" alt="portrait mode on stb coffee <3">
+
+
+<img class="myImg1" src="images/caps.jpg" alt="Back street boyz">
+<img class="myImg1" src="images/lb.jpg" alt="Winter wonderland through a lightbulb">
+
+<img class="myImg1" src="images/winter.jpg" alt="qt potrait on mulled wine">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+</div>
+<script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img1 = document.getElementsByClassName("myImg1");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+for (i = 0; i < img1.length; i++) { 
+   img1[i].onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+}
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+     
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
