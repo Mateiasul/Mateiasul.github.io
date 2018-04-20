@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DG08 - Containment and Specialisation</title>
+    <style>
+        .conStyle {
+            padding: 10px 10px;
+            border: 10px solid;
+        }
+
+        .conStyle-red {
+            border-color: red;
+        }
+
+        .conStyle-blue {
+            border-color: blue;
+        }
+
+        .title {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .message {
+            font-size: larger;
+        }
+
+        .SplitterComponent {
+            width: 100%;
+            height: 100%;
+            clear: both;
+            margin: 10px;
+        }
+
+        .SplitterComponent-left {
+            float: left;
+            width: 30%;
+            height: 100%;
+        }
+
+        .SplitterComponent-right {
+            float: right;
+            width: 70%;
+            height: 100%;
+        }
+
+        .LeftSplit {
+            background-color: green;
+        }
+
+        .RightSplit {
+            background-color: yellow; 
+        }
+    </style>
+</head>
+<body>
+    <!-- Set up an element to receive the app with an appropriate id -->
+    <div id="app"></div>
+    <!-- Import the js file that was specified in the output section of webpack.config.js -->
+    <script src="index.js"></script>
+</body>
+</html>

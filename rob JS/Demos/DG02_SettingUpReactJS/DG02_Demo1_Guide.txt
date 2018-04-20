@@ -1,0 +1,13 @@
+1) Create the project folder
+2) Install babel-polyfill, react and react-dom
+3) Install babel-core, babel-loader, babel-preset-env, babel-preset-react
+4) Install webpack and webpack-dev-server
+5) Run npm init
+6) Modify scripts in package.json
+7) Create webpack.config.js
+8) Create index.html
+9) Create main.js
+10) Run npm run build and check output
+11) Run npm start
+12) Observe in browser
+13) Modify main.js html save and observe change

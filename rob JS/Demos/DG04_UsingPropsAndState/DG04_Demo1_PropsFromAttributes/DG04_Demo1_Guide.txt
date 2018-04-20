@@ -1,0 +1,5 @@
+1) Create new folder DG04_UsingsPropsAndState and subfolder DG04_Demo1_PropsFromAttributes
+2) Copy contents of DG03 Demo folder for quick setup
+2) Amend main.js to have headerProp and contentProp
+4) Amend App.jsx to use headerProp and contentProp
+5) Run application

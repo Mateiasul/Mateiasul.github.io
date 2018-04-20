@@ -1,0 +1,15 @@
+{
+   "players": [
+     {"id": 1, "name": "Gary Goalie", "position": "G" },
+     {"id": 2, "name": "Dave Defender", "position": "D" },
+     {"id": 3, "name": "Freddie Fullback", "position": "D" },
+     {"id": 4, "name": "Matty Midfielder", "position": "M" },
+     {"id": 5, "name": "Wayne Winger", "position": "W" },
+     {"id": 6, "name": "Sammy Striker", "position": "F"}
+   ],
+  "results": [
+      {"home": "React United", "homeScore": 3, "away": "Angular Juniors", "awayScore": 0 },
+      {"home": "Ember Town", "homeScore": 2, "away": "React United", "awayScore": 2 },
+      {"home": "React United", "homeScore": 1, "away": "JS Meteors", "awayScore": 3 }
+  ]
+}

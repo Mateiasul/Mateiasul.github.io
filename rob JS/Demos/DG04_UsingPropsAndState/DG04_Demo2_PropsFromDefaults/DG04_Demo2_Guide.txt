@@ -1,0 +1,4 @@
+1) Copy contents of DG04_Demo1_PropsFromAttributes
+2) Amend App.jsx to use default headerProp and contentProp
+4) Amend main.js to have just contentProp
+5) Run application

@@ -1,0 +1,17 @@
+.conStyle {
+    padding: 10px 10px;
+    border: 10px solid;
+}
+
+.conStyle-red {
+    border-color: red;
+}
+
+.title {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.message {
+    font-size: larger;
+}

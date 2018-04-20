@@ -1,0 +1,6 @@
+1) Copy contents of DG04_Demo2_PropsFromDefaults
+2) Amend App.jsx to use propTypes
+3) Amend render return to use propTypes
+4) Amend main.js to have just supply number prop, first as number, then as string
+5) Run application
+6) Highlight warning errors from second running and also when removing require default props
